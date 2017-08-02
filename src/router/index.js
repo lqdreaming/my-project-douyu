@@ -20,7 +20,7 @@ export default new Router({
       component: resolve => require(['@/components/login/login'], resolve)
     },
     {
-      path: '/',
+      path: '',
       component: resolve => require(['@/components/primary/primary'], resolve)
     },
     {
